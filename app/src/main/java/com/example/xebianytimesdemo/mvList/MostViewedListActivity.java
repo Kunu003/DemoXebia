@@ -88,8 +88,7 @@ public class MostViewedListActivity extends AppCompatActivity implements Navigat
     public void showSnackBar(String msg) {
         Snackbar snackbar = Snackbar
                 .make(coordinatorLayout, msg, Snackbar.LENGTH_SHORT);
-
-        // Changing action button text color
+        
         View sbView = snackbar.getView();
         TextView textView = sbView.findViewById(com.google.android.material.R.id.snackbar_text);
         textView.setTextColor(Color.WHITE);
