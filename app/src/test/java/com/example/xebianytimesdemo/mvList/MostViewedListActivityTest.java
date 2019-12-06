@@ -1,4 +1,4 @@
-package com.example.xebianytimesdemo.test;
+package com.example.xebianytimesdemo.mvList;
 
 import com.example.xebianytimesdemo.mvList.MostViewedListActivity;
 import com.example.xebianytimesdemo.mvList.MostViewedViewModel;
