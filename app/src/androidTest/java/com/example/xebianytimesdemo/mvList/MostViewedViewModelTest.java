@@ -1,5 +1,6 @@
 package com.example.xebianytimesdemo.mvList;
 
+import org.junit.After;
 import org.junit.Before;
 
 import static org.junit.Assert.*;
@@ -15,4 +16,6 @@ public class MostViewedViewModelTest {
     public void setSUT(MostViewedViewModel SUT) {
         this.mostViewedViewModel = SUT;
     }
+
+
 }
